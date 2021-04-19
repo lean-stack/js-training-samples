@@ -1,2 +1,3 @@
-# js-training-samples
-Code-Beispiele zu meiner JavaScript Schulung
+# JavaScript Training Samples
+
+> Code-Beispiele zu meiner JavaScript Schulung
