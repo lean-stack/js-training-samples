@@ -2,11 +2,11 @@
 
   const bus = APP.messageBus;
 
-  function log(msg, level = 'INFO') {
+  const log = (msg, level = 'INFO') => {
     bus.publish('log', `${new Date().toLocaleTimeString()} [${level}]: ${msg}`);
   }
 
-  function error(msg) {
+  const error = (msg) => {
     log(msg, 'ERROR');
   }
 
